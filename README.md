@@ -11,5 +11,5 @@ The MainActivity provides an interface for the user to configure the settings:
 The sensor is tested on a service, which registers itself as a sensor listener. When the sensor reports a value above the threshold, the service broadcasts an alert request.
 
 ## Screenshots
-![MainActivity](gallery/Screenshot_2019-11-02-00-17-09.png | width=100)
-![Notification](gallery/Screenshot_2019-11-02-00-17-32.png | width=100)
+
+<img src="gallery/Screenshot_2019-11-02-00-17-09.png" width="300"> <img src="gallery/Screenshot_2019-11-02-00-17-32.png" width="300">
