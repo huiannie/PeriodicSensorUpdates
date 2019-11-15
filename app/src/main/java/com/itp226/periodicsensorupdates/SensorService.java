@@ -63,12 +63,12 @@ public class SensorService extends Service implements SensorEventListener {
         sensorManager.unregisterListener(this);
         // send new broadcast to restart the service
         // when this service is destroyed.
-        Intent broadcastIntent = new Intent("RestartReceiverIntent");
+        Intent broadcastIntent = new Intent("com.itp226.periodicsensorupdates.RestartReceiverIntent");
         sendBroadcast(broadcastIntent);
     }
 
     void sendAlert() {
-        Intent broadcastIntent = new Intent("AlertReceiverIntent");
+        Intent broadcastIntent = new Intent("com.itp226.periodicsensorupdates.AlertReceiverIntent");
         sendBroadcast(broadcastIntent);
     }
 
