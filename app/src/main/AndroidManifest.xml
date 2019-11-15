@@ -25,15 +25,15 @@
             android:exported="true"
             android:label="RestartWhenStopped" >
             <intent-filter>
-                <action android:name="RestartReceiverIntent" />
+                <action android:name="com.itp226.periodicsensorupdates.RestartReceiverIntent" />
             </intent-filter>
         </receiver>
         <receiver android:name=".AlertReceiver"
             android:enabled="true"
             android:exported="true"
-            android:label="RestartWhenStopped" >
+            android:label="AlertNotification" >
             <intent-filter>
-                <action android:name="AlertReceiverIntent" />
+                <action android:name="com.itp226.periodicsensorupdates.AlertReceiverIntent" />
             </intent-filter>
         </receiver>
     </application>
